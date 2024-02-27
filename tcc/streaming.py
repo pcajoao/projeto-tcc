@@ -3,7 +3,7 @@ import pyarrow as pya
 from time import sleep
 from stream_to_power_bi import StreamToPowerBI
 
-endpoint = "https://api.powerbi.com/beta/1c39c071-04ee-484a-9b5d-7f3bf3dfb998/datasets/f9f1f0aa-e120-4065-9c53-d5de9487be39/rows?experience=power-bi&key=%2BbAvXgH1UHpIjE4RkbZ847%2F80O0aNyKGioZFs08SivH%2F97GTUPsnzc3PAtTK0zDbanuRZGLufCVwF3piWU%2FsUw%3D%3D"
+endpoint = ""
 
 # montagem do dataframe usando pandas e formatação das colunas
 df = (pd.read_csv("result.csv", 
